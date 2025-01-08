@@ -1,66 +1,209 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🌟 **Tugas Besar Pemrograman Berbasis Web - Kelompok 13** 🌟  
+## 🗳️ **Aplikasi Sistem Voting Online**  
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+### 👥 **Anggota Kelompok**  
+| Nama | NPM |
+| ---- | --- |
+| Agil Deriansyah Hasan | 4522210125 |
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### 🛠️ Teknologi yang Digunakan  
+| Teknologi     | Deskripsi                                 |  
+|---------------|-------------------------------------------|  
+| Laravel       | Framework PHP untuk membangun aplikasi web |  
+| MySQL         | Database relasional untuk menyimpan data  |  
+| Blade         | Template engine bawaan Laravel            |  
+| Chart.js      | Library untuk visualisasi data            |  
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### 🚀 **Fitur-Fitur**  
 
-## Learning Laravel
+#### 🔑 **Fitur untuk Admin**  
+Admin memiliki akses ke semua fitur user biasa, ditambah fitur eksklusif:  
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **🏠 Dashboard**  
+  Mengakses tampilan utama aplikasi.  
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- **🗳️ Voting**  
+  Melihat atau berpartisipasi dalam pemungutan suara.  
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **📊 Result**  
+  Mengakses hasil pemungutan suara.  
 
-## Laravel Sponsors
+- **👤 Candidate**  
+  Melihat, menambah, mengedit, atau menghapus data kandidat.  
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- **🔒 Admin Area**  
+  - Melihat daftar voting & masukan dari pemilih.  
+  - Melihat hasil voting dan statistik pemilih.  
 
-### Premium Partners
+#### 👤 **Fitur untuk User**  
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+- **🏠 Dashboard**  
+  Mengakses tampilan utama aplikasi.  
 
-## Contributing
+- **🗳️ Voting**  
+  Berpartisipasi dalam pemungutan suara.  
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **📊 Result**  
+  Melihat hasil pemungutan suara.  
 
-## Code of Conduct
+- **👤 Candidate**  
+  Melihat detail kandidat yang berpartisipasi.  
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- **🛠️ Profil**  
+  Mengedit profil pengguna. 
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 📐 **Entity-Relationship Diagram (ERD)**  
+![ERD Diagram](img/diagram/erd.png)
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 🎭 **Use Case Diagram**  
+![Use Case Diagram](img/diagram/usecase.png)
+
+---
+
+### 🛢️ **ERD di Dalam Database MySQL**  
+![Use Case Diagram](img/diagram/xampp.png)
+
+---
+
+### 📸 **Hasil Screenshot**  
+
+#### **🏠 Halaman Dashboard**  
+- Jika Belum Login
+
+![Halaman Dashboard](img/dashboard/2.png)
+
+- Sesudah Login
+
+![Halaman Dashboard](img/dashboard/1.png)
+
+![Halaman Dashboard](img/dashboard/3.png)
+
+![Halaman Dashboard](img/dashboard/4.png)
+
+![Halaman Dashboard](img/dashboard/5.png)
+
+![Halaman Dashboard](img/dashboard/6.png)
+
+![Halaman Dashboard](img/dashboard/7.png)
+
+![Halaman Dashboard](img/dashboard/8.png)
+
+![Halaman Dashboard](img/dashboard/9.png)
+
+![Halaman Dashboard](img/dashboard/10.png)
+
+#### **🗳️ Halaman Voting**  
+
+![Halaman Voting](img/voting/1.png)
+
+#### **📊 Halaman Result**  
+
+![Halaman Result](img/result/1.png)
+
+![Halaman Result](img/result/2.png)
+
+![Halaman Result](img/result/3.png)
+
+#### **👤 Halaman Candidate**  
+
+- Halaman Untuk User Bagian Halaman Candidate
+
+![Halaman Candidate](img/candidate/1.png)
+
+![Halaman Candidate](img/candidate/15.png)
+
+![Halaman Candidate](img/candidate/2.png)
+
+![Halaman Candidate](img/candidate/3.png)
+
+![Halaman Candidate](img/candidate/4.png)
+
+![Halaman Candidate](img/candidate/5.png)
+
+- Halaman Untuk Admin Bagian Halaman Candidate
+
+![Halaman Candidate](img/candidate/6.png)
+
+**Create**
+
+![Halaman Candidate](img/candidate/7.png)
+
+![Halaman Candidate](img/candidate/8.png)
+
+![Halaman Candidate](img/candidate/9.png)
+
+**Read & Delete**
+
+![Halaman Candidate](img/candidate/10.png)
+
+![Halaman Candidate](img/candidate/11.png)
+
+![Halaman Candidate](img/candidate/12.png)
+
+**Update**
+
+![Halaman Candidate](img/candidate/13.png)
+
+![Halaman Candidate](img/candidate/14.png)
+
+#### **🔒 Halaman Admin Area**  
+
+![Halaman Admin Area](img/adminarea/1.png)
+
+![Halaman Admin Area](img/adminarea/2.png)
+
+![Halaman Admin Area](img/adminarea/3.png)
+
+![Halaman Admin Area](img/adminarea/4.png)
+
+#### **🔑 Auth**  
+
+![Halaman Auth](img/auth/2.png)
+
+![Halaman Auth](img/auth/3.png)
+
+![Halaman Auth](img/auth/1.png)
+
+#### **📋 Header & Footer**  
+
+![Halaman Header & Footer](img/header&footer/1.png)
+
+![Halaman Header & Footer](img/header&footer/2.png)
+
+![Halaman Header & Footer](img/header&footer/3.png)
+
+---
+
+### 💬 Feedback  
+Kami sangat menghargai setiap masukan! Jika ada saran atau bug yang ditemukan, silakan buat issue di repository ini atau hubungi kami melalui [email](mailto:agil@example.com).  
+
+---
+
+## 👨‍💻Kontribusi
+
+<div align="center">
+  <b>Agil Deriansyah Hasan</b><br>
+  <i>4522210125</i>
+</div>
+<img src="img/profil/1.jpg" alt="Profil" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; display: block; margin: 0 auto;" />
+
+---
+
+### 📜 **Lisensi**  
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+
+
+![Laravel](https://img.shields.io/badge/Laravel-8.x-red?style=flat-square&logo=laravel)  
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square&logo=mysql)  
+![PHP](https://img.shields.io/badge/PHP-8.x-purple?style=flat-square&logo=php)  
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)  
+
+---

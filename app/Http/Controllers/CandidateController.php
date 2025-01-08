@@ -31,6 +31,7 @@ class CandidateController extends Controller
             'page_meta' => [
                 'title' => 'Create New Candidate',
                 'method' => 'post',
+                'header' => 'Form New Candidate',
                 'url' => route('candidate.store'),
                 'submit_text' => 'Create',
             ],
@@ -77,8 +78,9 @@ class CandidateController extends Controller
         return view('candidate.form', [
             'candidate' => $candidate,
             'page_meta' => [
-                'title' => 'Edit Candidate: ' . $candidate->ketua,
+                'title' => 'Edit Candidate',
                 'method' => 'put',
+                'header' => 'Edit Candidate : ' . $candidate->ketua . ' & ' . $candidate->wakil_ketua,
                 'url' => route('candidate.update', $candidate->id),
                 'submit_text' => 'Update',
             ],

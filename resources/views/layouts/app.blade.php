@@ -1,3 +1,5 @@
+@props(['title' => config('app.name', 'Laravel')])
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -5,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ isset($title) ? $title . ' / ' . config('app.name', 'Laravel') : config('app.name', 'Laravel') }}</title>
+        <title>{{ $title }}</title>
         <link rel="icon" href="{{ asset('img/bla.png') }}" type="image/png">
 
         <!-- Fonts -->
@@ -14,7 +16,7 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans antialiased bg-gradient-to-b from-[#0D1B2A] via-[#1B263B] to-[#2C3E50] ">
+    <body class="font-sans antialiased bg-gradient-to-b from-[#0D1B2A] via-[#1B263B] to-[#2C3E50]">
         <div class="min-h-screen bg-gradient-to-b from-[#0D1B2A] via-[#1B263B] to-[#2C3E50]">
             @include('layouts.navigation')
 

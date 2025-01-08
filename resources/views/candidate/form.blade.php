@@ -1,7 +1,7 @@
 <x-app-layout title="{{ $page_meta['title'] }}">
     <x-slot name="header">
         <h2 class="font-semibold text-xl  leading-tight">
-            {{ __('Form Candidate') }}
+        {{ $page_meta['header'] }}
         </h2>
     </x-slot>
 

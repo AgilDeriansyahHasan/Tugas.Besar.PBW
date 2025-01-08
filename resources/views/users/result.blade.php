@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-app-layout title="Result">
     <x-slot name="header">
         <h2 class="font-semibold text-2xl  leading-tight">
             {{ __('Hasil Voting') }}

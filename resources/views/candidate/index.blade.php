@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-app-layout title="Candidate">
 <x-slot name="header">
         <h2 class="font-semibold text-2xl  leading-tight">
             {{ __('Candidate Details') }}
