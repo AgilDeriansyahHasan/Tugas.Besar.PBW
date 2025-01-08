@@ -8,6 +8,17 @@
 
 ---
 
+### 🌐 **Deskripsi Aplikasi Web**
+
+Aplikasi ini merupakan platform pemungutan suara berbasis web yang dirancang untuk mempermudah proses voting secara online. Dengan mengutamakan keamanan, akurasi data, dan kemudahan penggunaan, aplikasi ini cocok untuk berbagai kebutuhan, seperti pemilu organisasi, pemilihan ketua, atau polling umum lainnya.
+
+### 🎯 **Tujuan Utama**
+- Efisiensi: Mengganti proses voting manual dengan sistem digital yang lebih cepat dan terorganisir.
+- Keamanan: Menjamin data pemilih dan hasil suara terlindungi dari manipulasi.
+- Kemudahan: Memberikan pengalaman yang sederhana dan intuitif untuk pengguna.
+
+---
+
 ### 🛠️ Teknologi yang Digunakan  
 | Teknologi     | Deskripsi                                 |  
 |---------------|-------------------------------------------|  
@@ -201,9 +212,6 @@ Kami sangat menghargai setiap masukan! Jika ada saran atau bug yang ditemukan, s
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 
-![Laravel](https://img.shields.io/badge/Laravel-8.x-red?style=flat-square&logo=laravel)  
-![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square&logo=mysql)  
-![PHP](https://img.shields.io/badge/PHP-8.x-purple?style=flat-square&logo=php)  
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)  
+![Laravel](https://img.shields.io/badge/Laravel-8.x-red?style=flat-square&logo=laravel)  ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square&logo=mysql)  ![PHP](https://img.shields.io/badge/PHP-8.x-purple?style=flat-square&logo=php)  ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)  
 
 ---
